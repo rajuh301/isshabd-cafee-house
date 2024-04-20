@@ -17,10 +17,14 @@ const OrdersPages = () => {
                 console.error('Error fetching orders:', error);
             }
         };
-
+    
         fetchOrders();
-    }, []);
+    
+        const intervalId = setInterval(fetchOrders, 5000);
 
+        return () => clearInterval(intervalId);
+    }, []); 
+    
     const orders = orderss?.filter(ord => ord.status !== 'accept' && ord.status !== 'reject' && ord.status !== 'done')
 
     const today = new Date().toLocaleDateString(); // Get today's date in MM/DD/YYYY format
