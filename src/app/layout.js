@@ -13,8 +13,8 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-  title: "Easy-Shop",
-  description: "Easy-Shop is an e-commerce web application",
+  title: "Isshabd",
+  description: "Isshabd is an e-commerce web application",
 };
 
 export default function RootLayout({ children }) {

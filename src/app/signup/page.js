@@ -4,7 +4,7 @@ import SignupForm from './SignupForm';
 
 
 export const metadata = {
-    title: "SignUp - Easy Shop"
+    title: "SignUp - Isshabd"
 };
 
 const SignUpPage = () => {
