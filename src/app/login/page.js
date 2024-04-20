@@ -4,7 +4,7 @@ import LoginSvg from '@/components/LoginSvg';
 
 
 export const metadata = {
-    title: "Login - Easy Shop"
+    title: "Login - Isshabd"
 };
 
 const LoginPage = () => {
